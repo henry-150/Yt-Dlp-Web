@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yt-Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="Script.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <div class="headtext">Yt-Dlp</div>
+    </header>
+
+    <section class="section" id="sec1">
+      <label for="url-input">
+        <input type="url" name="" id="url-input" placeholder="Paste URL" />
+      </label>
+
+      <button class="btn" id="paste-btn">Paste</button>
+    </section>
+
+    <section class="section" id="sec2">
+      <h1 id="preview-window">preview-window :</h1>
+      <div class="preview-window"><img id="videoThumbnail" src="" alt="Thumbnail" srcset="" /></div>
+      <h2 id="title"></h2>
+    </section>
+
+    <section class="section" id="sec3">
+      <label for="Q-selection">
+        Quality :
+        <select name="Quality select" id="Q-selection">
+          <option value="1080P">1080p</option>
+          <option value="720P">720p</option>
+          <option value="480P">480p</option>
+          <option value="360P">360p</option>
+          <option value="144P">144p</option>
+        </select>
+      </label>
+
+      <label for="F-selection">
+        Format :
+        <select name="Format Select" id="F-selection">
+          <option value="MP4">MP4 (Video And Audio)</option>
+          <option value="MP3">MP3 (Audio Only)</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="section" id="sec4">
+      <button class="btn" id="Download-btn">Download</button>
+    </section>
+  </body>
+</html>
